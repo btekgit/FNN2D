@@ -15,5 +15,17 @@ To try our code simply run the main file.
 Focus2D_tf2_v2.py
 It will create a simple 2 layer network and train on MNIST. 
 
+
+1 May 2026
+
+- I have included new pytorch implementation of AdaptiveLocal2DLayerv2.py
+This should run and test layer with a random input. 
+
+- I have included imagenet_trainer code inet_trained_alc2d.py, sorry this code is chaotic tried lots of stuff. But it is running to create resnet_w_alc.py and vit_w_alc.py 
+
+- run_spatial_benchmarks.py is the newest code which compares alc2d with deformconv and coordconv in a simple convolutional network. 
+
+
+
 We will provide more information in the future. 
 
